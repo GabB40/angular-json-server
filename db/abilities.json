@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "name": "Boule de feu",
+    "color": "tomato",
+    "hero_id": 2
+  },
+  {
+    "id": 2,
+    "name": "Clonage",
+    "color": "goldenrod",
+    "hero_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Force",
+    "color": "turquoise",
+    "hero_id": 3
+  },
+  {
+    "id": 4,
+    "name": "Mode hermite",
+    "color": "forestgreen",
+    "hero_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Mode démon",
+    "color": "blueviolet",
+    "hero_id": 2
+  },
+  {
+    "id": 6,
+    "name": "Guérison",
+    "color": "mediumseagreen",
+    "hero_id": 3
+  }
+]
