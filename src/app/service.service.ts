@@ -27,11 +27,21 @@ export class ServiceService {
       color: "darkslategray",
       hero_id: 1
     }
-    return this.httpClient.post<Abilitie>(environment.apiUrl + '/abilities', abilitie)
+    return this.httpClient.post<Abilitie>(environment.apiUrl + '/abilities', abilitie);
   }
 
   deleteAbilitie(): Observable<Abilitie> {
-    return this.httpClient.delete<Abilitie>(environment.apiUrl + '/abilities/42')
+    return this.httpClient.delete<Abilitie>(environment.apiUrl + '/abilities/42');
+  }
+
+  saveAbilitie(): Observable<Abilitie> {
+    const abilitie = {
+      id: 2,
+      name: "Clonage des ombres",
+      color: "#333",
+      hero_id: 1
+    }
+    return this.httpClient.put<Abilitie>(environment.apiUrl + '/abilities/2', abilitie);
   }
 
 }

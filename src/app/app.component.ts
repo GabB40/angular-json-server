@@ -50,4 +50,11 @@ export class AppComponent implements OnInit {
       this.initHeroesDto();
     });
   }
+
+  onSaveAbilitie() {
+    this.service.saveAbilitie().subscribe(res => {
+      console.log(res);
+      this.initHeroesDto();
+    })
+  }
 }
